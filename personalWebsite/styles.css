@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'willAlbinMonoRegular';
+    src:    url('fonts/willAlbin/willAlbinMonoRegular.ttf') format('truetype'), 
+            url('fonts/willAlbin/willAlbinBold.ttf') format('truetype');
+}
+
+ul{ 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f5eed9;
+}
+
+
+/* alignment in nav bar */
+li{ 
+    float: left; 
+}
+
+/* Apply the custom font to the navbar links */
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    font-family: 'willAlbinMonoRegular', sans-serif; /* Use the custom font here */
+    font-size: medium;
+    padding: 14px 14px;
+    text-decoration: none;
+}
+
+/*change the link color to #111 (black) on hover 8*/
+li a:hover {
+    background-color: #3a3d36;
+    color: #f5eed9;
+    font-family: 'willAlbinMonoRegular', sans-serif; /* Use the custom font here */
+}
+
+/*TEXT: CART 351*/
+h1{
+    text-align: center;
+    font-size: 200px;
+    color: #f5eed9;
+    font-family: 'willAlbinMonoRegular', sans-serif; /* Use 'willAlbinMonoRegular' here */
+}
+
+/*TEXT: Networks and Navigation*/
+h5{
+    text-align: center;
+    color: #f5eed9;
+    font-size: 30px;
+    font-family: 'willAlbinMonoRegular', sans-serif; 
+}
+
+body {
+    background-color: #3a3d36;
+  }
+
+
+
+
+
+
